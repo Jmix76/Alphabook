@@ -1,187 +1,1765 @@
+
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Alphabook - Manipulation and Dark Psychology</title>
-    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
-	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV Service</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Reset and Globals */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<script type="text/javascript">
-    var khSkt_pzg_IKcmSc={"it":4216868,"key":"2b61f"};
-</script>
-<script src="https://d26h1wdc757l2w.cloudfront.net/d47805a.js"></script>
+:root {
+    /* Base Colors */
+    --background: #0a0a12;
+    --background-secondary: #111116;
+    --text: #f0f0f0;
+    --text-secondary: #a0a0a0;
+    --primary: #4361ee;
+    --accent: #ff00e5;
+    --accent-secondary: #00f2ff;
+    --border: rgba(48, 54, 61, 0.5);
 
-	<style type="text/css">
-	html{scroll-behavior:smooth;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}body{background:#fff;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}hr{border:0;display:block;height:1px;background:#e9edf3;margin-top:24px;margin-bottom:24px}ul,ol{margin-top:0;margin-bottom:24px;padding-left:24px}ul{list-style:disc}ol{list-style:decimal}li>ul,li>ol{margin-bottom:0}dl{margin-top:0;margin-bottom:24px}dt{font-weight:600}dd{margin-left:24px;margin-bottom:24px}img{height:auto;max-width:100%;vertical-align:middle}figure{margin:24px 0}figcaption{font-size:16px;line-height:24px;padding:8px 0}img,svg{display:block}table{border-collapse:collapse;margin-bottom:24px;width:100%}tr{border-bottom:1px solid #e9edf3}th{text-align:left}th,td{padding:10px 16px}th:first-child,td:first-child{padding-left:0}th:last-child,td:last-child{padding-right:0}html{font-size:20px;line-height:30px}body{color:#6b7a90;font-size:1rem}body,button,input,select,textarea{font-family:"Heebo",sans-serif}a{color:#535fd7;text-decoration:none}a:hover,a:active{outline:0;text-decoration:underline}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{clear:both;color:#182538;font-family:"IBM Plex Sans",sans-serif;font-weight:600}h1,.h1{font-size:38px;line-height:48px;letter-spacing:-.1px}@media (min-width:641px){h1,.h1{font-size:44px;line-height:54px;letter-spacing:0}}h2,.h2{font-size:32px;line-height:42px;letter-spacing:-.1px}@media (min-width:641px){h2,.h2{font-size:38px;line-height:48px;letter-spacing:-.1px}}h3,.h3,blockquote{font-size:24px;line-height:34px;letter-spacing:-.1px}h4,h5,h6,.h4,.h5,.h6{font-size:20px;line-height:30px;letter-spacing:-.1px}@media (max-width:640px){.h1-mobile{font-size:38px;line-height:48px;letter-spacing:-.1px}.h2-mobile{font-size:32px;line-height:42px;letter-spacing:-.1px}.h3-mobile{font-size:24px;line-height:34px;letter-spacing:-.1px}.h4-mobile,.h5-mobile,.h6-mobile{font-size:20px;line-height:30px;letter-spacing:-.1px}}.text-light{color:#8595ae}.text-light a{color:#8595ae}.text-light h1,.text-light h2,.text-light h3,.text-light h4,.text-light h5,.text-light h6,.text-light .h1,.text-light .h2,.text-light .h3,.text-light .h4,.text-light .h5,.text-light .h6{color:#fff!important}.text-sm{font-size:18px;line-height:27px;letter-spacing:-.1px}.text-xs{font-size:16px;line-height:24px;letter-spacing:-.1px}h1,h2,.h1,.h2{margin-top:48px;margin-bottom:16px}h3,.h3{margin-top:36px;margin-bottom:12px}h4,h5,h6,.h4,.h5,.h6{margin-top:24px;margin-bottom:4px}p{margin-top:0;margin-bottom:24px}dfn,cite,em,i{font-style:italic}blockquote{color:#6b7a90;font-style:italic;margin-top:24px;margin-bottom:24px;margin-left:24px}blockquote::before{content:"\201C"}blockquote::after{content:"\201D"}blockquote p{display:inline}address{color:#6b7a90;border-width:1px 0;border-style:solid;border-color:#e9edf3;padding:24px 0;margin:0 0 24px}pre,pre h1,pre h2,pre h3,pre h4,pre h5,pre h6,pre .h1,pre .h2,pre .h3,pre .h4,pre .h5,pre .h6{font-family:"Courier 10 Pitch",Courier,monospace}pre,code,kbd,tt,var{background:#f8f9fb}pre{font-size:16px;line-height:24px;margin-bottom:1.6em;max-width:100%;overflow:auto;padding:24px;margin-top:24px;margin-bottom:24px}code,kbd,tt,var{font-family:Monaco,Consolas,"Andale Mono","DejaVu Sans Mono",monospace;font-size:16px;padding:2px 4px}abbr,acronym{cursor:help}mark,ins{text-decoration:none}small{font-size:18px;line-height:27px;letter-spacing:-.1px}b,strong{font-weight:600}button,input,select,textarea,label{font-size:20px;line-height:30px}.container,.container-sm{width:100%;margin:0 auto;padding-left:16px;padding-right:16px}@media (min-width:481px){.container,.container-sm{padding-left:24px;padding-right:24px}}.container{max-width:1128px}.container-sm{max-width:848px}.container .container-sm{max-width:800px;padding-left:0;padding-right:0}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden;word-wrap:normal!important}.screen-reader-text:focus{border-radius:2px;box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;display:block;font-family:"IBM Plex Sans",sans-serif;font-size:14px;letter-spacing:0;font-weight:600;line-height:16px;text-decoration:none;text-transform:uppercase;background-color:#fff;color:#535fd7!important;border:none;height:auto;left:8px;padding:16px 32px;top:8px;width:auto;z-index:100000}.list-reset{list-style:none;padding:0}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.text-primary{color:#535fd7}.text-secondary{color:#61effd}.has-top-divider{position:relative}.has-top-divider::before{content:"";position:absolute;top:0;left:0;width:100%;display:block;height:1px;background:#e9edf3}.has-bottom-divider{position:relative}.has-bottom-divider::after{content:"";position:absolute;bottom:0;left:0;width:100%;display:block;height:1px;background:#e9edf3}.m-0{margin:0}.mt-0{margin-top:0}.mr-0{margin-right:0}.mb-0{margin-bottom:0}.ml-0{margin-left:0}.m-8{margin:8px}.mt-8{margin-top:8px}.mr-8{margin-right:8px}.mb-8{margin-bottom:8px}.ml-8{margin-left:8px}.m-16{margin:16px}.mt-16{margin-top:16px}.mr-16{margin-right:16px}.mb-16{margin-bottom:16px}.ml-16{margin-left:16px}.m-24{margin:24px}.mt-24{margin-top:24px}.mr-24{margin-right:24px}.mb-24{margin-bottom:24px}.ml-24{margin-left:24px}.m-32{margin:32px}.mt-32{margin-top:32px}.mr-32{margin-right:32px}.mb-32{margin-bottom:32px}.ml-32{margin-left:32px}.m-40{margin:40px}.mt-40{margin-top:40px}.mr-40{margin-right:40px}.mb-40{margin-bottom:40px}.ml-40{margin-left:40px}.m-48{margin:48px}.mt-48{margin-top:48px}.mr-48{margin-right:48px}.mb-48{margin-bottom:48px}.ml-48{margin-left:48px}.m-56{margin:56px}.mt-56{margin-top:56px}.mr-56{margin-right:56px}.mb-56{margin-bottom:56px}.ml-56{margin-left:56px}.m-64{margin:64px}.mt-64{margin-top:64px}.mr-64{margin-right:64px}.mb-64{margin-bottom:64px}.ml-64{margin-left:64px}.p-0{padding:0}.pt-0{padding-top:0}.pr-0{padding-right:0}.pb-0{padding-bottom:0}.pl-0{padding-left:0}.p-8{padding:8px}.pt-8{padding-top:8px}.pr-8{padding-right:8px}.pb-8{padding-bottom:8px}.pl-8{padding-left:8px}.p-16{padding:16px}.pt-16{padding-top:16px}.pr-16{padding-right:16px}.pb-16{padding-bottom:16px}.pl-16{padding-left:16px}.p-24{padding:24px}.pt-24{padding-top:24px}.pr-24{padding-right:24px}.pb-24{padding-bottom:24px}.pl-24{padding-left:24px}.p-32{padding:32px}.pt-32{padding-top:32px}.pr-32{padding-right:32px}.pb-32{padding-bottom:32px}.pl-32{padding-left:32px}.p-40{padding:40px}.pt-40{padding-top:40px}.pr-40{padding-right:40px}.pb-40{padding-bottom:40px}.pl-40{padding-left:40px}.p-48{padding:48px}.pt-48{padding-top:48px}.pr-48{padding-right:48px}.pb-48{padding-bottom:48px}.pl-48{padding-left:48px}.p-56{padding:56px}.pt-56{padding-top:56px}.pr-56{padding-right:56px}.pb-56{padding-bottom:56px}.pl-56{padding-left:56px}.p-64{padding:64px}.pt-64{padding-top:64px}.pr-64{padding-right:64px}.pb-64{padding-bottom:64px}.pl-64{padding-left:64px}.sr .has-animations .is-revealing{visibility:hidden}.input,.textarea{background-color:#182538;border-width:1px;border-style:solid;border-color:#e9edf3;border-radius:2px;color:#6b7a90;max-width:100%;width:100%}.input::-moz-placeholder,.textarea::-moz-placeholder{color:#6b7a90}.input::placeholder,.textarea::placeholder{color:#6b7a90}.input::-ms-input-placeholder,.textarea::-ms-input-placeholder{color:#6b7a90}.input:-ms-input-placeholder,.textarea:-ms-input-placeholder{color:#6b7a90}.input:hover,.textarea:hover{border-color:#d9e0ea}.input:active,.input:focus,.textarea:active,.textarea:focus{outline:none;border-color:#e9edf3}.input[disabled],.textarea[disabled]{cursor:not-allowed;background-color:#f8f9fb;border-color:#f8f9fb}.input{-moz-appearance:none;-webkit-appearance:none;font-size:16px;letter-spacing:-.1px;line-height:20px;padding:13px 16px;height:48px;box-shadow:none}.input .inline-input{display:inline;width:auto}.textarea{display:block;min-width:100%;resize:vertical}.textarea .inline-textarea{display:inline;width:auto}.field-grouped>.control:not(:last-child){margin-bottom:8px}.switch[type="checkbox"]{outline:0;-webkit-user-select:none;-moz-user-select:none;user-select:none;position:absolute;opacity:0}.switch[type="checkbox"]+label{display:inline-flex;position:relative;line-height:36px;padding-left:78px;-webkit-user-select:none;-moz-user-select:none;user-select:none;cursor:pointer}.switch[type="checkbox"]+label::before,.switch[type="checkbox"]+label::after{content:"";position:absolute;display:block}.switch[type="checkbox"]+label::before{top:0;left:0;width:64px;height:36px;border-radius:18px;background:#e9edf3}.switch[type="checkbox"]+label::after{top:6px;left:6px;width:24px;height:24px;border-radius:12px;background:#fff;transition:all 0.15s ease-out}.switch[type="checkbox"]:checked+label::before{background:#535fd7}.switch[type="checkbox"]:checked+label::after{left:34px}@media (min-width:641px){.field-grouped{display:flex}.field-grouped>.control{flex-shrink:0}.field-grouped>.control.control-expanded{flex-grow:1;flex-shrink:1}.field-grouped>.control:not(:last-child){margin-bottom:0;margin-right:8px}}.button{display:inline-flex;font-family:"IBM Plex Sans",sans-serif;font-size:14px;letter-spacing:0;font-weight:600;line-height:16px;text-decoration:none!important;text-transform:uppercase;background-color:#e9edf3;color:#535fd7!important;border:none;border-radius:2px;cursor:pointer;justify-content:center;padding:16px 32px;height:48px;text-align:center;white-space:nowrap}.button:hover{background:#ecf0f5}.button:active{outline:0}.button::before{border-radius:2px}.button-shadow{position:relative}.button-shadow::before{content:"";position:absolute;top:0;right:0;bottom:0;left:0;box-shadow:0 8px 24px rgba(255,255,255,.25);mix-blend-mode:multiply;transition:box-shadow 0.15s ease}.button-shadow:hover::before{box-shadow:0 8px 24px rgba(255,255,255,.35)}.button-sm{padding:8px 24px;height:32px}.button-sm.button-shadow::before{box-shadow:0 4px 16px rgba(255,255,255,.25)}.button-sm.button-shadow:hover::before{box-shadow:0 4px 16px rgba(255,255,255,.35)}.button-primary{color:#fff!important;background-color:#535fd7}.button-primary:hover{background:#5763d8}.button-primary.button-shadow::before{box-shadow:0 8px 16px rgba(83,95,215,.25);mix-blend-mode:normal}.button-primary.button-shadow:hover::before{box-shadow:0 8px 16px rgba(83,95,215,.35)}.button-primary .button-sm.button-shadow::before{box-shadow:0 4px 16px rgba(83,95,215,.25)}.button-primary .button-sm.button-shadow:hover::before{box-shadow:0 4px 16px rgba(83,95,215,.35)}.button-block{display:flex}.site-header{position:relative;padding:24px 0;z-index:2}.site-header::before{content:"";position:absolute;top:-140px;right:-100px;width:1440px;height:324px;background-image:url(https://tinyurl.com/yulxfodq)}.lights-off .site-header::before{background-image:url(../images/header-illustration-dark.svg)}.site-header-inner{position:relative;display:flex;justify-content:space-between;align-items:center}.header-links{display:inline-flex}.header-links li{display:inline-flex}.header-links a:not(.button){font-size:16px;line-height:24px;letter-spacing:-.1px;font-weight:600;color:#8595ae;text-transform:uppercase;text-decoration:none;line-height:16px;padding:8px 24px}.header-links a:not(.button):hover,.header-links a:not(.button):active{color:#fff}@media (min-width:641px){.site-header::before{display:none}}.hero{text-align:center;padding-top:48px;padding-bottom:88px}.hero-copy{position:relative}.hero-paragraph{margin-bottom:32px}.hero-cta{max-width:400px;margin-left:auto;margin-right:auto;margin-bottom:80px}.lights-toggle{color:rgba(107,122,144,.64)}.header-illustration{display:none}.header-illustration img,.header-illustration svg{max-width:none}.header-illustration-image{display:none}.hero-media{position:relative}.hero-media-illustration{position:absolute;top:-10%;left:-15px}.hero-media-illustration img,.hero-media-illustration svg{max-width:136%}.hero-media-container{position:relative}.hero-media-image{margin:0 auto;border-radius:4px}.lights-off .hero-media-image{box-shadow:48px 16px 48px rgba(0,0,0,.2)}@media (max-width:639px){.hero-cta>*{display:flex}.hero-cta>*+*{margin-top:32px}.lights-toggle{justify-content:center}}@media (min-width:641px){.hero{text-align:left;padding-top:88px;padding-bottom:120px}.hero-inner{display:flex;justify-content:space-between}.hero-copy{padding-top:40px;padding-right:48px;min-width:448px;max-width:512px;z-index:1}.hero-title{margin-bottom:16px}.hero-paragraph{margin-bottom:32px}.hero-cta{display:flex;align-items:center;margin:0}.hero-cta .button{min-width:170px}.hero-cta .button:first-child{margin-right:32px}.header-illustration{display:block}.hero-media{z-index:0}.hero-media img,.hero-media svg{max-width:none}.header-illustration-image{display:block;position:absolute;top:-168px;left:-722px;width:1440px;height:324px}}.features-wrap{max-width:540px;margin:0 auto}.features-image{position:relative;margin-top:64px;margin-bottom:112px}.features-illustration{position:absolute;top:-2%;left:50%;transform:translateX(-50%);max-width:136%}.features-box{width:80%;margin:0 auto;box-shadow:48px 16px 48px rgba(24,37,56,.12)}.lights-off .features-box{box-shadow:48px 16px 48px rgba(0,0,0,.2)}.feature{text-align:center;margin-bottom:48px}.feature:last-of-type{margin-bottom:0}.feature-icon{display:inline-flex;margin-bottom:16px}.feature-icon img,.feature-icon svg{max-width:none}.feature-title{position:relative;margin-bottom:26px}.feature-title::after{content:"";width:32px;height:2px;position:absolute;bottom:-14px;left:calc(50% - 16px);background:#e9edf3}.lights-off .feature-title::after{background:#304057}@media (min-width:641px){.features{position:relative}.features .section-inner{padding-bottom:100px}.features .section-paragraph{padding-left:72px;padding-right:72px}.features::before{content:"";width:100%;height:300px;position:absolute;left:0;top:168px;background:linear-gradient(to bottom,rgba(83,95,215,0),rgba(83,95,215,.04))}.lights-off .features::before{display:none}.feature{text-align:left}.feature-inner{display:flex}.feature-icon{display:block;margin-top:8px;margin-right:32px;margin-bottom:0}.feature-title::after{left:0}}.cta{position:relative}.cta .section-inner{padding-bottom:64px}.cta .section-paragraph{margin-bottom:32px}.cta::before{content:"";position:absolute;bottom:-32px;left:calc(50% - 720px);height:263px;width:1440px;background-image:url(https://tinyurl.com/yrduvuyt)}.lights-off .cta::before{background-image:url(../images/cta-illustration-dark.svg)}.cta-cta{max-width:400px;margin-left:auto;margin-right:auto}@media (max-width:639px){.cta-cta .button{display:flex}}@media (min-width:641px){.cta .section-inner{padding-bottom:128px}.cta .section-paragraph{margin-bottom:40px;padding-left:72px;padding-right:72px}.cta::before{bottom:0}.cta-cta .button{min-width:170px}}.is-boxed{background:#e9edf3}.body-wrap{background:#fff;overflow:hidden;display:flex;flex-direction:column;min-height:100vh}.boxed-container{max-width:1440px;margin:0 auto;box-shadow:0 16px 48px rgba(255,255,255,.5)}main{flex:1 0 auto}.section-inner{position:relative;padding-top:48px;padding-bottom:48px}@media (min-width:641px){.section-inner{padding-top:88px;padding-bottom:88px}}.site-footer{font-size:14px;line-height:20px;letter-spacing:0;background:#182538;color:#6b7a90}.site-footer a{color:#6b7a90;text-decoration:none}.site-footer a:hover,.site-footer a:active{text-decoration:underline}.site-footer::before{display:none}.lights-off .site-footer::before{display:block}.site-footer-inner{position:relative;display:flex;flex-wrap:wrap;padding-top:48px;padding-bottom:48px}.footer-brand,.footer-links,.footer-social-links,.footer-copyright{flex:none;width:100%;display:inline-flex;justify-content:center}.footer-brand,.footer-links,.footer-social-links{margin-bottom:24px}.footer-links li+li,.footer-social-links li+li{margin-left:16px}.footer-social-links li{display:inline-flex}.footer-social-links li a{padding:8px}@media (min-width:641px){.site-footer-inner{justify-content:space-between;padding-top:72px;padding-bottom:72px}.footer-brand,.footer-links,.footer-social-links,.footer-copyright{flex:50%}.footer-brand,.footer-copyright{justify-content:flex-start}.footer-links,.footer-social-links{justify-content:flex-end}.footer-links{order:1;margin-bottom:0}}.switch[type="checkbox"]+label::before{background:#41a5ea;background:linear-gradient(to right,#2feafc 0,#535fd7 100%)}.switch[type="checkbox"]+label::after{background:#fff}.switch[type="checkbox"]:checked+label::before{background:#ff9d34;background:linear-gradient(to right,#ffbc48 0,#fe7e1f 100%)}.asset-light,.asset-dark{visibility:hidden;opacity:0}.is-loaded .asset-light,.is-loaded .asset-dark{visibility:visible;opacity:1}.asset-dark{display:none}.lights-off{color:#8595ae}.lights-off .asset-light{display:none}.lights-off .asset-dark{display:block}.lights-off a{color:#8595ae}.lights-off h1,.lights-off h2,.lights-off h3,.lights-off h4,.lights-off h5,.lights-off h6,.lights-off .h1,.lights-off .h2,.lights-off .h3,.lights-off .h4,.lights-off .h5,.lights-off .h6{color:#fff!important}.lights-off.is-boxed{background:#202d3f}.lights-off .body-wrap{background:#182538}.lights-off .boxed-container{box-shadow:0 16px 48px rgba(0,0,0,.2)}.lights-off hr{display:block;height:1px;background:#304057}.lights-off .has-top-divider{position:relative}.lights-off .has-top-divider::before{content:"";position:absolute;top:0;left:0;width:100%;display:block;height:1px;background:#304057}.lights-off .has-bottom-divider{position:relative}.lights-off .has-bottom-divider::after{content:"";position:absolute;bottom:0;left:0;width:100%;display:block;height:1px;background:#304057}body,a,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{transition:color 0.25s ease}.is-boxed,.body-wrap,.has-top-divider,.has-bottom-divider::after,hr::after,.feature-title::after{transition:background 0.25s ease}.boxed-container{transition:box-shadow 0.15s ease}@keyframes fadeInLogo{0%{opacity:0;transform:scale(.5)}}@keyframes fadeInLeftMedia{0%{opacity:0;transform:scale(.8) translate3d(40px,10px,0)}30%{opacity:1}}@keyframes fadeInLeftIllustration{0%{opacity:0;transform:scale(.95) translate3d(40px,10px,0)}}@keyframes fadeUpBox{0%{opacity:0;transform:scale(.95) translate3d(-40px,20px,0)}30%{opacity:1}}@keyframes fadeIn{0%{opacity:0}}.is-loaded .header-logo-image{animation:fadeInLogo 0.35s both cubic-bezier(.3,0,.2,1);will-change:transform}.is-loaded .hero-media-image{animation:fadeInLeftMedia 1s 0.2s both cubic-bezier(.3,0,.2,1);will-change:transform}.is-loaded .hero-media-illustration-image{animation:fadeInLeftIllustration 1s 0.2s both cubic-bezier(.3,0,.2,1);will-change:transform}.is-loaded .features-box{animation:fadeUpBox 1s 0.2s both cubic-bezier(.3,0,.2,1);will-change:transform}.is-loaded .header-illustration-image{animation:fadeIn 1s both cubic-bezier(.3,0,.2,1);will-change:transform}.is-loaded .features-illustration{animation:fadeIn 1s 0.2s both cubic-bezier(.3,0,.2,1);will-change:transform}button{all:unset;color:#fff!important;background-color:#535fd7;font-size:16px;letter-spacing:-.1px;text-transform:uppercase;text-decoration:none;line-height:16px;padding:15px 0;width:100%;font-family:"IBM Plex Sans",sans-serif}button:hover{background:#5763d8}.hero-cta button{min-width:170px}.hero-cta button:first-child{margin-right:32px}.hero{padding-bottom:50px}@media (max-width:767px){.hero-media{margin-top:120px}.features-box{width:70%}}@media (min-width:768px){.hero-media-image{width:85%;margin-top:-30px}.features-box{width:40%}}
-	</style>
+    /* Enhanced RGB Colors */
+    --primary-gradient: linear-gradient(45deg, #4361ee, #ff00e5, #00f2ff, #4361ee);
+    --secondary-gradient: linear-gradient(90deg, #ff00e5, #00f2ff);
+    --text-gradient: linear-gradient(90deg, #ff00e5, #4361ee, #00f2ff);
+    --card-gradient: linear-gradient(145deg, rgba(26, 28, 44, 0.5), rgba(19, 20, 31, 0.9));
+    --glow-blue: 0 0 20px rgba(67, 97, 238, 0.7);
+    --glow-pink: 0 0 20px rgba(255, 0, 229, 0.7);
+    --glow-cyan: 0 0 20px rgba(0, 242, 255, 0.7);
 
+    /* Other variables */
+    --radius: 12px;
+    --transition: all 0.3s ease;
+    --container-width: 1200px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 10% 10%, rgba(67, 97, 238, 0.05), transparent 30%),
+                radial-gradient(circle at 90% 40%, rgba(255, 0, 229, 0.05), transparent 30%),
+                radial-gradient(circle at 50% 80%, rgba(0, 242, 255, 0.05), transparent 30%);
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--primary);
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: var(--text-secondary);
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    padding: 5rem 0;
+    position: relative;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Hide elements with d-none class */
+.d-none {
+    display: none !important;
+}
+
+/* Animations */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px rgba(67, 97, 238, 0.5);
+    }
+    33% {
+        box-shadow: 0 0 15px rgba(255, 0, 229, 0.5);
+    }
+    66% {
+        box-shadow: 0 0 15px rgba(0, 242, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 5px rgba(67, 97, 238, 0.5);
+    }
+}
+
+/* Buttons with glowing effects */
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    background: var(--primary-gradient);
+    background-size: 400% auto;
+    color: white;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    animation: gradientAnimation 8s linear infinite;
+}
+
+.btn-primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--glow-pink), var(--glow-blue);
+    animation: gradientAnimation 4s linear infinite;
+}
+
+.btn-primary:hover::before {
+    left: 100%;
+}
+
+.btn-primary i {
+    font-size: 1.2rem;
+}
+
+.btn-nav {
+    background: var(--primary-gradient);
+    background-size: 400% auto;
+    color: white;
+    padding: 0.6rem 1.4rem;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+    animation: gradientAnimation 8s linear infinite;
+}
+
+.btn-nav:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--glow-blue), var(--glow-pink);
+    animation: gradientAnimation 4s linear infinite;
+}
+
+.btn-claim {
+    display: inline-block;
+    padding: 0.8rem 1.8rem;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    background: var(--primary-gradient);
+    background-size: 400% auto;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+    animation: gradientAnimation 8s linear infinite;
+}
+
+.btn-claim:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--glow-blue), var(--glow-pink);
+    animation: gradientAnimation 4s linear infinite;
+}
+
+/* Navigation */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 0;
+    background-color: rgba(10, 10, 18, 0.9);
+    backdrop-filter: blur(15px);
+    z-index: 1000;
+    border-bottom: 1px solid rgba(48, 54, 61, 0.5);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+nav.scrolled {
+    padding: 0.75rem 0;
+    background-color: rgba(10, 10, 18, 0.95);
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.logo img {
+    height: 35px;
+    animation: pulse 2s infinite;
+    filter: drop-shadow(0 0 8px rgba(67, 97, 238, 0.6));
+}
+
+.logo span {
+    background: var(--text-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 300% 300%;
+    animation: gradientAnimation 4s ease infinite;
+    text-shadow: 0 0 10px rgba(255, 0, 229, 0.3);
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.nav-links a {
+    font-weight: 500;
+    position: relative;
+    padding: 0.5rem 0;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary-gradient);
+    background-size: 400% auto;
+    transition: width 0.3s ease;
+    animation: gradientAnimation 8s linear infinite;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+    width: 100%;
+}
+
+.menu-icon, .close-menu {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text);
+    transition: var(--transition);
+}
+
+.menu-icon:hover, .close-menu:hover {
+    color: var(--primary);
+}
+
+/* Hero Section */
+.hero {
+    padding: 10rem 0 6rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        radial-gradient(circle at 20% 30%, rgba(67, 97, 238, 0.15), transparent 40%),
+        radial-gradient(circle at 80% 20%, rgba(255, 0, 229, 0.15), transparent 40%),
+        radial-gradient(circle at 50% 60%, rgba(0, 242, 255, 0.15), transparent 40%);
+    z-index: -1;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.hero h1 span {
+    background: var(--text-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 300% 300%;
+    animation: gradientAnimation 4s ease infinite;
+    font-weight: 800;
+    text-shadow: none;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+    color: var(--text);
+    opacity: 0.9;
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.brand-logos::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border), transparent);
+}
+
+.brand-logos img {
+    height: 35px;
+    opacity: 0.8;
+    filter: grayscale(80%);
+    transition: all 0.4s ease;
+}
+
+.brand-logos img:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 8px rgba(67, 97, 238, 0.4));
+}
+
+/* Channels Section */
+.channels-section {
+    padding: 6rem 0;
+    position: relative;
+    background-color: var(--background-secondary);
+    overflow: hidden;
+}
+
+.channels-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        radial-gradient(circle at 10% 90%, rgba(67, 97, 238, 0.1), transparent 30%),
+        radial-gradient(circle at 90% 10%, rgba(255, 0, 229, 0.1), transparent 30%);
+    z-index: 0;
+}
+
+.channels-section h2 {
+    color: var(--text);
+    margin-bottom: 3rem;
+    position: relative;
+    z-index: 2;
+}
+
+.channels-section h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: var(--primary-gradient);
+    margin: 1rem auto 0;
+    border-radius: 2px;
+    animation: gradientAnimation 4s linear infinite;
+}
+
+.channel-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.channel-logo {
+    background: var(--card-gradient);
+    border-radius: var(--radius);
+    padding: 1.2rem;
+    text-align: center;
+    border: 1px solid rgba(48, 54, 61, 0.2);
+    transition: all 0.4s ease;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    overflow: hidden;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.channel-logo:hover {
+    transform: translateY(-8px) rotateY(5deg);
+    border-color: rgba(67, 97, 238, 0.5);
+    box-shadow: var(--glow-blue);
+}
+
+.channel-logo img {
+    max-height: 70px;
+    max-width: 100%;
+    transition: all 0.4s ease;
+    transform-style: preserve-3d;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+}
+
+.channel-logo:hover img {
+    transform: scale(1.15);
+    filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2));
+}
+
+/* Features Section */
+.features-section {
+    padding: 6rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.features-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        radial-gradient(circle at 80% 80%, rgba(67, 97, 238, 0.1), transparent 30%),
+        radial-gradient(circle at 20% 40%, rgba(255, 0, 229, 0.1), transparent 30%);
+    z-index: -1;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.feature-card {
+    background: var(--card-gradient);
+    border-radius: var(--radius);
+    padding: 2rem;
+    transition: all 0.4s ease;
+    border: 1px solid rgba(48, 54, 61, 0.2);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.feature-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 100%;
+    background: var(--primary-gradient);
+    background-size: 100% 400%;
+    animation: gradientAnimation 6s linear infinite;
+    z-index: -1;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--glow-blue);
+    border-color: rgba(67, 97, 238, 0.3);
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    background: var(--primary-gradient);
+    background-size: 300% 300%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    animation: gradientAnimation 6s linear infinite;
+    box-shadow: var(--glow-blue);
+}
+
+.feature-icon i {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.feature-card h3 {
+    margin-bottom: 1rem;
+}
+
+.feature-card p {
+    color: var(--text-secondary);
+}
+
+/* Coverage Section */
+.coverage-section {
+    padding: 6rem 0;
+    position: relative;
+    background-color: var(--background-secondary);
+    overflow: hidden;
+}
+
+.coverage-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        radial-gradient(circle at 10% 20%, rgba(67, 97, 238, 0.1), transparent 30%),
+        radial-gradient(circle at 90% 80%, rgba(255, 0, 229, 0.1), transparent 30%);
+    z-index: 0;
+}
+
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.coverage-content {
+    position: relative;
+    z-index: 1;
+}
+
+.coverage-content h2 {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.coverage-features {
+    margin-top: 2rem;
+}
+
+.coverage-features li {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.coverage-features i {
+    color: var(--primary);
+    font-size: 1.2rem;
+}
+
+.coverage-image {
+    position: relative;
+    z-index: 1;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease;
+    border: 1px solid rgba(67, 97, 238, 0.3);
+}
+
+.coverage-image:hover {
+    transform: translateY(-8px) rotateY(-5deg);
+    box-shadow: var(--glow-blue), var(--glow-pink);
+}
+
+.coverage-image img {
+    width: 100%;
+    border-radius: var(--radius);
+    transition: all 0.4s ease;
+}
+
+.image-controls {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.5rem;
+}
+
+.control-dot {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.control-dot.active {
+    background: var(--primary-gradient);
+    width: 20px;
+    border-radius: 10px;
+    animation: gradientAnimation 4s linear infinite;
+}
+
+/* Plans Section - Updated with modern, simpler design */
+.plans-section {
+    padding: 6rem 0;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--background);
+}
+
+.plans-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 50% 50%, rgba(67, 97, 238, 0.05), transparent 50%);
+    z-index: 0;
+}
+
+.plans-section h2 {
+    background: var(--text-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 300% 300%;
+    animation: gradientAnimation 4s ease infinite;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.plans-section .subtitle {
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.plans-section .subtitle::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: var(--primary-gradient);
+    margin: 1.5rem auto 0;
+    border-radius: 2px;
+}
+
+.plans-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.plan-card {
+    background: rgba(17, 17, 22, 0.5);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(48, 54, 61, 0.2);
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+
+.plan-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(67, 97, 238, 0.3);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.plan-card.popular {
+    border: 1px solid rgba(255, 0, 229, 0.3);
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.popular-tag {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: #ff2a6d;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.plan-header {
+    padding: 2rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(48, 54, 61, 0.2);
+}
+
+.plan-header h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.plan-price {
+    margin-bottom: 1rem;
+}
+
+.price {
+    display: none;
+}
+
+.discount-price {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.plan-card:nth-child(1) .discount-price {
+    color: #12b5e5;
+}
+
+.plan-card:nth-child(2) .discount-price {
+    color: #05c792;
+}
+
+.plan-card:nth-child(3) .discount-price {
+    color: #9c5aff;
+}
+
+.plan-card:nth-child(4) .discount-price {
+    color: #ff2a6d;
+}
+
+.plan-description {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-top: 0.5rem;
+}
+
+.plan-features {
+    padding: 1.5rem 2rem;
+}
+
+.plan-feature {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.plan-feature i {
+    color: var(--primary);
+    font-size: 1.1rem;
+    flex-shrink: 0;
+}
+
+.plan-card:nth-child(1) .plan-feature i {
+    color: #12b5e5;
+}
+
+.plan-card:nth-child(2) .plan-feature i {
+    color: #05c792;
+}
+
+.plan-card:nth-child(3) .plan-feature i {
+    color: #9c5aff;
+}
+
+.plan-card:nth-child(4) .plan-feature i {
+    color: #ff2a6d;
+}
+
+.btn-claim {
+    display: block;
+    margin: 0 2rem;
+    padding: 0.8rem 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--primary);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: none;
+    animation: none;
+}
+
+.plan-card:nth-child(1) .btn-claim {
+    background-color: #12b5e5;
+}
+
+.plan-card:nth-child(2) .btn-claim {
+    background-color: #05c792;
+}
+
+.plan-card:nth-child(3) .btn-claim {
+    background-color: #9c5aff;
+}
+
+.plan-card:nth-child(4) .btn-claim {
+    background-color: #ff2a6d;
+}
+
+.btn-claim:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    animation: none;
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 6rem 0;
+    text-align: center;
+    position: relative;
+    background: var(--background-secondary);
+    overflow: hidden;
+}
+
+.cta-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        radial-gradient(circle at 30% 30%, rgba(67, 97, 238, 0.1), transparent 40%),
+        radial-gradient(circle at 70% 70%, rgba(255, 0, 229, 0.1), transparent 40%);
+    z-index: 0;
+}
+
+.cta-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+.cta-section h2 {
+    margin-bottom: 1.5rem;
+}
+
+.cta-section p {
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+    color: var(--text-secondary);
+}
+
+/* Footer */
+footer {
+    background-color: var(--background);
+    padding: 5rem 0 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        radial-gradient(circle at 10% 90%, rgba(67, 97, 238, 0.05), transparent 30%),
+        radial-gradient(circle at 90% 10%, rgba(255, 0, 229, 0.05), transparent 30%);
+    z-index: 0;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    margin-bottom: 3rem;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-logo p {
+    margin-top: 1rem;
+    max-width: 300px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.footer-column h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.footer-column h4::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 30px;
+    height: 3px;
+    background: var(--primary-gradient);
+    border-radius: 3px;
+    animation: gradientAnimation 4s linear infinite;
+}
+
+.footer-column ul li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-column ul li i {
+    margin-right: 0.5rem;
+    color: var(--primary);
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    background: var(--card-gradient);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(48, 54, 61, 0.2);
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px);
+    background: var(--primary-gradient);
+    background-size: 300% 300%;
+    animation: gradientAnimation 4s linear infinite;
+    color: white;
+    box-shadow: var(--glow-blue);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(48, 54, 61, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
+/* Claim Popup Styles - Simplified without RGB */
+.covers {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.locker {
+    width: 90%;
+    max-width: 500px;
+    background-color: var(--background-secondary);
+    border-radius: var(--radius);
+    padding: 2rem;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(48, 54, 61, 0.5);
+    animation: none;
+}
+
+.main {
+    text-align: center;
+}
+
+.info {
+    margin-bottom: 2rem;
+}
+
+#pro-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: white;
+    animation: none;
+}
+
+#pro-per {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #12b5e5;
+}
+
+.more, .mored {
+    margin-top: 2rem;
+}
+
+.op {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(48, 54, 61, 0.2);
+}
+
+.op div:first-child {
+    color: var(--text-secondary);
+}
+
+.op div:last-child {
+    font-weight: 600;
+    color: white;
+}
+
+.btn-ver {
+    margin-top: 1.5rem;
+    padding: 0.8rem 2rem;
+    background-color: #12b5e5;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    animation: none;
+}
+
+.btn-ver:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    animation: none;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .content-wrapper {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .coverage-content {
+        order: 1;
+    }
+
+    .coverage-image {
+        order: 0;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 400px;
+        height: 100vh;
+        background-color: var(--background-secondary);
+        padding: 2rem;
+        z-index: 1001;
+        transition: all 0.4s ease;
+        box-shadow: -5px 0 30px rgba(0, 0, 0, 0.2);
+        overflow-y: auto;
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .close-menu {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 3rem;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-links {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .plans-container {
+        gap: 3rem;
+    }
+
+    .plan-card.popular {
+        transform: scale(1);
+    }
+
+    .plan-card.popular:hover {
+        transform: translateY(-10px);
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .features-grid, .footer-links {
+        grid-template-columns: 1fr;
+    }
+
+    .brand-logos {
+        gap: 1.5rem;
+    }
+
+    .brand-logos img {
+        height: 25px;
+    }
+}
+
+    </style>
 </head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="https://ext.same-assets.com/3262671006/3783633550.svg" alt="Logo">
+                <span>IPTV</span>
+            </div>
+            <div class="menu-icon" id="menu-toggle">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="nav-links" id="nav-menu">
+                <div class="close-menu" id="close-menu">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#plans">Plans</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#plans" class="btn-nav">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<body class="is-boxed has-animations">
-    <div class="body-wrap boxed-container">
-        <header class="site-header">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-								<img class="header-logo-image asset-light" src="https://tinyurl.com/ynqrr6z2" alt="Logo">
-                            </a>
-                        </h1>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Experience the Ultimate <span>Entertainment</span></h1>
+                <p>Never miss a moment! Excellent picture quality without any lag or buffering. Our service guarantees unmatched performance & reliability.</p>
+                <a href="#plans" class="btn-primary">
+                    <i class="bi bi-play-fill"></i>
+                    Get Started
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+            <div class="brand-logos">
+                <img src="https://ext.same-assets.com/2830204483/3182905467.png" alt="BBC">
+                <img src="https://ext.same-assets.com/2830204483/1391896975.png" alt="Sky">
+                <img src="https://ext.same-assets.com/2830204483/1210810910.png" alt="Formula 1">
+                <img src="https://ext.same-assets.com/2830204483/64723324.png" alt="Disney Plus">
+                <img src="https://ext.same-assets.com/2830204483/3845870112.png" alt="Netflix">
+            </div>
+        </div>
+    </header>
+
+    <!-- Channels Section -->
+    <section class="channels-section">
+        <div class="container">
+            <h2>Worldwide Channels, Movies And TV-Shows</h2>
+            <div class="channel-logos">
+                <div class="channel-logo">
+                    <img src="https://ext.same-assets.com/2830204483/4227735334.webp" alt="Hulu">
+                </div>
+                <div class="channel-logo">
+                    <img src="https://ext.same-assets.com/2830204483/2531172828.webp" alt="Netflix">
+                </div>
+                <div class="channel-logo">
+                    <img src="https://ext.same-assets.com/2830204483/532017545.webp" alt="HBO Max">
+                </div>
+                <div class="channel-logo">
+                    <img src="https://ext.same-assets.com/2830204483/1458294763.webp" alt="Amazon Prime">
+                </div>
+                <div class="channel-logo">
+                    <img src="https://ext.same-assets.com/2830204483/1754181144.webp" alt="Apple TV+">
+                </div>
+                <div class="channel-logo">
+                    <img src="https://ext.same-assets.com/2830204483/1539635768.webp" alt="Disney+">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <p class="subtitle">Our premium IPTV service offers the best channels, quality, and reliability you can trust.</p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-globe"></i>
+                    </div>
+                    <h3>Channels from 115 countries</h3>
+                    <p>Watch TV channels from around the world including Netherlands, Belgium, Germany, UK, Spain, Portugal, and many more.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-check-circle"></i>
+                    </div>
+                    <h3>7 days money back guarantee</h3>
+                    <p>Not satisfied? Cancel within 7 days of purchase and receive a full refund. We stand behind our quality service.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-tv"></i>
+                    </div>
+                    <h3>High Quality HD/FHD/4K/8K</h3>
+                    <p>Enjoy all image qualities to view our IPTV service everywhere, regardless of your network speed on Mobile, TV, Android box, or PC.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Section -->
+    <section class="coverage-section">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="coverage-content">
+                    <h2>We Cover Almost All Countries Around The World</h2>
+                    <p>Our IPTV service offers a vast selection of TV channels from almost all countries, including the UK, USA, Canada, Portugal, Albania, Germany, Italy, France, Brazil, Romania, Greece, Spain, Ireland, Australia, Arabic and many more.</p>
+                    <ul class="coverage-features">
+                        <li><i class="bi bi-check-circle-fill"></i> 20,000+ Live IPTV Channels</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Unlimited Movies & TV shows</li>
+                        <li><i class="bi bi-check-circle-fill"></i> High-Quality Streaming</li>
+                    </ul>
+                </div>
+                <div class="coverage-image">
+                    <img src="https://ext.same-assets.com/2830204483/1750088519.webp" alt="TV with streaming content">
+                    <div class="image-controls">
+                        <span class="control-dot active"></span>
+                        <span class="control-dot"></span>
+                        <span class="control-dot"></span>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+    </section>
 
-        <main>
-            <section class="hero">
-                <div class="container">
-                    <div class="hero-inner">
-						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Dark Psychology and Mind Master</h1>
-	                        <p class="hero-paragraph">Discover the secrets to mastering human manipulation and analyze people like a master.</p>
-	                        <div class="hero-cta">
-								<a class="button button-primary" href="#cta">Download it now</a>
-							</div>
-						</div>
-						<div class="hero-media">
-							<div class="header-illustration">
-								<img class="header-illustration-image asset-light" src="https://tinyurl.com/yulxfodq" alt="Header illustration">
-							</div>
-							<div class="hero-media-illustration">
-								<img class="hero-media-illustration-image asset-light" src="https://tinyurl.com/ym4rhjau" alt="Hero media illustration">
-							</div>
-							<div class="hero-media-container">
-								<img class="hero-media-image asset-light" src="https://iili.io/JzDdAhB.png" alt="Hero media">
-							</div>
-						</div>
-                    </div>
-                </div>
-            </section>
+    <!-- Plans Section -->
+    <section id="plans" class="plans-section">
+        <div class="container">
+            <h2>Choose Your Plan</h2>
+            <p class="subtitle">Select the perfect subscription plan that matches your needs.</p>
 
-            <section class="features section">
-                <div class="container">
-					<div class="features-inner section-inner has-bottom-divider">
-						<div class="features-header text-center">
-							<div class="container-sm">
-								<h2 class="section-title mt-0">"Manipulation and Dark Psychology"</h2>
-	                            <p class="section-paragraph">Here’s a glimpse of what you’ll learn</p>
-								<div class="features-image">
-									<img class="features-illustration asset-light" src="https://tinyurl.com/ynkrg5jj" alt="Feature illustration">
-									<img class="features-box asset-light" src="https://m.media-amazon.com/images/I/716pIPBDYQL._AC_UF1000,1000_QL80_.jpg" alt="Feature box">
-									<img class="features-illustration asset-light" src="https://tinyurl.com/yq722uuw" alt="Feature illustration top">
-								</div>
-							</div>
+            <div class="plans-container">
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>1 Month</h3>
+                        <div class="plan-price">
+                            <div class="price">$39</div>
+                            <div class="discount-price">$12.99</div>
                         </div>
-                        <div class="features-wrap">
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img class="asset-light" src="https://tinyurl.com/ypbov6hf" alt="Feature 01">
-                                    </div>
-									<div class="feature-content">
-                                    	<p class="text-sm mb-0">From gaining an edge in business negotiations to getting your way with romantic partners, Dark Psychology can help you achieve success in all areas of your life.</p>
-									</div>
-								</div>
-                            </div>
-							<div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img class="asset-light" src="https://tinyurl.com/ypbov6hf" alt="Feature 02">
-                                    </div>
-									<div class="feature-content">
-                                    	<p class="text-sm mb-0">From Using body language secrets to exclusive speed reading techniques, you'll be able to wrap anyone and everyone around your fingers in no time.</p>
-									</div>
-								</div>
-                            </div>
-							<div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img class="asset-light" src="https://tinyurl.com/ypbov6hf" alt="Feature 03">
-                                    </div>
-									<div class="feature-content">
-                                    	<p class="text-sm mb-0">View the world through a whole new lens after learning how to efficiently analyze people. Know what they're thinking and how they're feeling without hearing a word from them.</p>
-									</div>
-								</div>
-                            </div>
+                        <div class="plan-description">Suitable For Any Device</div>
+                    </div>
+                    <div class="plan-features">
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>18,000+ Live TV Channels</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>EPG Guide</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>4K, Ultra HD, and SD Quality</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>99.95% Uptime with Anti-Freezing</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>Video-On-Demand (VOD)</span>
                         </div>
                     </div>
+                    <button class="btn-claim btn-down">Buy Now</button>
                 </div>
-            </section>
-	<script type="text/javascript" id="ogjs" src="https://verifyuser.org/cl/js/6d23r8"></script>
-			<section id="cta" class="cta section">
-                <div class="container-sm">
-                    <div class="cta-inner section-inner">
-                        <div class="cta-header text-center">
-                            <h2 class="section-title mt-0">Human Verification</h2>
-                            <p class="section-paragraph">To confirme that you are human and not a spam, all you have to do is participate by completing one offer below.</p>
-							<div class="cta-cta">
-								<button  onclick="_qr()">Verify now</button>
-							</div>
-					    </div>
-                    </div>
-                </div>
-            </section>
-        </main>
 
-        <footer class="site-footer has-top-divider">
-            <div class="container">
-                <div class="site-footer-inner">
-                    <div class="brand footer-brand">
-                        <a href="#">
-							<img class="asset-light" src="https://tinyurl.com/ynqrr6z2" alt="Logo">
-                        </a>
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>3 Months</h3>
+                        <div class="plan-price">
+                            <div class="price">$69</div>
+                            <div class="discount-price">$29.99</div>
+                        </div>
+                        <div class="plan-description">Suitable For Any Device</div>
                     </div>
-                    <ul class="footer-links list-reset">
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#">About us</a>
-                        </li>
-                        <li>
-                            <a href="#">FAQ's</a>
-                        </li>
-                        <li>
-                            <a href="#">Support</a>
-                        </li>
-                    </ul>
-                    <ul class="footer-social-links list-reset">
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Facebook</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#FFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Twitter</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#FFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Google</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#FFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="footer-copyright">&copy; 2018 Alphabook, all rights reserved</div>
+                    <div class="plan-features">
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>18,000+ Live TV Channels</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>EPG Guide</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>4K, Ultra HD, and SD Quality</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>99.95% Uptime with Anti-Freezing</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>Video-On-Demand (VOD)</span>
+                        </div>
+                    </div>
+                    <button class="btn-claim btn-down">Buy Now</button>
+                </div>
+
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>6 Months</h3>
+                        <div class="plan-price">
+                            <div class="price">$89</div>
+                            <div class="discount-price">$49.99</div>
+                        </div>
+                        <div class="plan-description">Suitable For Any Device</div>
+                    </div>
+                    <div class="plan-features">
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>18,000+ Live TV Channels</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>EPG Guide</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>4K, Ultra HD, and SD Quality</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>99.95% Uptime with Anti-Freezing</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>Video-On-Demand (VOD)</span>
+                        </div>
+                    </div>
+                    <button class="btn-claim btn-down">Buy Now</button>
+                </div>
+
+                <div class="plan-card popular">
+                    <div class="popular-tag">Best Value</div>
+                    <div class="plan-header">
+                        <h3>12 Months</h3>
+                        <div class="plan-price">
+                            <div class="price">$120</div>
+                            <div class="discount-price">$79.99</div>
+                        </div>
+                        <div class="plan-description">Suitable For Any Device</div>
+                    </div>
+                    <div class="plan-features">
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>18,000+ Live TV Channels</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>EPG Guide</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>4K, Ultra HD, and SD Quality</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>99.95% Uptime with Anti-Freezing</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>Video-On-Demand (VOD)</span>
+                        </div>
+                    </div>
+                    <button class="btn-claim btn-down">Buy Now</button>
                 </div>
             </div>
-        </footer>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Experience Premium Entertainment?</h2>
+            <p>Join thousands of satisfied customers and unlock access to the world's best content today.</p>
+            <a href="#plans" class="btn-primary">
+                Get Started
+                <i class="bi bi-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <img src="https://ext.same-assets.com/3262671006/3783633550.svg" alt="Logo">
+                        <span>IPTV</span>
+                    </div>
+                    <p>The ultimate entertainment solution with high-quality streaming and a wide variety of channels and content.</p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#plans">Plans</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><i class="bi bi-envelope"></i> support@iptv.tv</li>
+                            <li><i class="bi bi-headset"></i> 24/7 Customer Support</li>
+                        </ul>
+                        <div class="social-icons">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2024 IPTV. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Claim Popup Overlay -->
+    <div class="covers d-none" id="cover">
+        <div class="locker">
+            <div class="main" id="main-1">
+                <div class="info">
+                    <div id="pro-title">Connect to server...</div>
+                    <div id="pro-per">0%</div>
+                </div>
+                <div class="more d-none" id="more">
+                    <div class="op"><div>M3U file:</div><div>https://iptv.net/playlist.m3u</div></div>
+                    <div class="op"><div>username:</div><div>usr24537</div></div>
+                    <div class="op"><div>password:</div><div>Fh64S*****Df</div></div>
+                </div>
+                <div class="d-none" id="mored">
+                    <p>Your account is ready, but to protect our system from random clicks and robots, you must make sure that you are a human and not a robot</p>
+                    <button class="btn-ver" onclick="_Vm()">Verify</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-	<script type="text/javascript">
-	!function(){const e=document,t=e.documentElement,n=e.body,i=e.getElementById("lights-toggle"),s=window.sr=ScrollReveal();function a(){let e=i.parentNode.querySelector(".label-text");i.checked?(n.classList.remove("lights-off"),e&&(e.innerHTML="dark")):(n.classList.add("lights-off"),e&&(e.innerHTML="light"))}t.classList.remove("no-js"),t.classList.add("js"),window.addEventListener("load",function(){n.classList.add("is-loaded")}),n.classList.contains("has-animations")&&window.addEventListener("load",function(){s.reveal(".feature",{duration:600,distance:"20px",easing:"cubic-bezier(0.215, 0.61, 0.355, 1)",origin:"right",viewFactor:.2})}),i&&(window.addEventListener("load",a),i.addEventListener("change",a))}();
-	</script>
 </body>
+
+<script>
+    // Mobile Menu Toggle
+document.addEventListener('DOMContentLoaded', function() {
+    // Mobile menu functionality
+    const menuToggle = document.getElementById('menu-toggle');
+    const closeMenu = document.getElementById('close-menu');
+    const navMenu = document.getElementById('nav-menu');
+
+    if (menuToggle && closeMenu && navMenu) {
+        menuToggle.addEventListener('click', function() {
+            navMenu.classList.add('active');
+        });
+
+        closeMenu.addEventListener('click', function() {
+            navMenu.classList.remove('active');
+        });
+    }
+
+    // Close menu when clicking on links
+    const navLinks = document.querySelectorAll('.nav-links a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            navMenu.classList.remove('active');
+        });
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                e.preventDefault();
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80, // Offset for fixed header
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Claim Buttons Functionality
+    const claimButtons = document.querySelectorAll('.btn-down');
+    const cover = document.getElementById('cover');
+    const proTitle = document.getElementById('pro-title');
+    const proPer = document.getElementById('pro-per');
+    const more = document.getElementById('more');
+    const mored = document.getElementById('mored');
+
+    claimButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            if (cover) {
+                cover.classList.remove('d-none');
+                simulateLoading();
+            }
+        });
+    });
+
+    // Simulating the loading process
+    function simulateLoading() {
+        let progress = 0;
+        const interval = setInterval(() => {
+            progress += Math.floor(Math.random() * 10) + 1;
+            if (progress >= 100) {
+                progress = 100;
+                clearInterval(interval);
+
+                // Show credentials after loading completes
+                setTimeout(() => {
+                    if (proTitle) proTitle.textContent = 'Connected!';
+                    if (proPer) proPer.textContent = '100%';
+                    if (more) more.classList.remove('d-none');
+
+                    // Show verification button after credentials
+                    setTimeout(() => {
+                        if (mored) mored.classList.remove('d-none');
+                    }, 1500);
+                }, 500);
+            }
+
+            if (proPer) proPer.textContent = progress + '%';
+        }, 200);
+    }
+
+    // Card hover effects
+    const cards = document.querySelectorAll('.feature-card, .plan-card, .channel-logo');
+    cards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-5px)';
+            this.style.borderColor = '#007bff';
+        });
+
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = '';
+            this.style.borderColor = '';
+        });
+    });
+
+    // Image slider dots
+    const dots = document.querySelectorAll('.control-dot');
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', function() {
+            // Remove active class from all dots
+            dots.forEach(d => d.classList.remove('active'));
+            // Add active class to clicked dot
+            this.classList.add('active');
+
+            // Here you could add logic to change the image
+            // For now, we'll just implement the UI behavior
+        });
+    });
+});
+
+// Verify button function (kept from original site)
+function _Vm() {
+    // Redirect to an external verification page or open a CPA offer
+    window.location.href = "https://www.example.com/verify"; // Replace with actual verification URL
+}
+
+</script>
 </html>
